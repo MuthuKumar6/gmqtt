@@ -306,5 +306,5 @@ class Client(MqttPackageHandler, SubscriptionsHandler):
 
     @property
     def protocol_version(self):
-        return self._connection._protocol.proto_ver \
+        return self._connection._protocol.proto_ver 
             if self._connection is not None else MQTTv50
